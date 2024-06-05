@@ -1,4 +1,5 @@
-.nav_container {
+/*Style for the nav bar*/
+.nav_container { /*flexbox for nav*/
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -25,7 +26,7 @@
     display:block;
     padding: 10px 20px;
 }
-.navbar ul ul {
+.navbar ul ul { /*creates dropdown menu*/
     position:absolute;
     top : 100%;
     display: none;
@@ -39,7 +40,7 @@
 .navbar ul ul li a:hover {
     background-color: black;
 }
-.nav_container .checkout {
+.nav_container .shoppingcart { /*formats where the shopping cart button is*/
     display:flex;
     align-items: center;
     justify-content: flex-end;
