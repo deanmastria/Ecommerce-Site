@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: green;
 }
 .navbar {
     display:flex;
@@ -15,7 +15,7 @@
     list-style-type: none;
     margin:0;
     padding:0;
-    background: black;
+    background: green;
 }
 .navbar li {
     display: inline-block;
@@ -46,4 +46,8 @@
     justify-content: flex-end;
     margin-right:1.5vw;
     padding:0;
+}
+img {
+    width: 30px;
+    height: 30px;
 }
