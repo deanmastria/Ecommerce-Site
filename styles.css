@@ -1,0 +1,48 @@
+.nav_container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.navbar {
+    display:flex;
+    position:relative;
+    z-index: 999;
+}
+.navbar ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background: black;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding: 10px 20px;
+}
+.navbar ul ul {
+    position:absolute;
+    top : 100%;
+    display: none;
+}
+.navbar ul ul li {
+    display:block;
+}
+.navbar li:hover ul {
+    display:block;
+}
+.navbar ul ul li a:hover {
+    background-color: black;
+}
+.nav_container .checkout {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right:1.5vw;
+    padding:0;
+}
