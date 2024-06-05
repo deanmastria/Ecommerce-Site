@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: green;
+    background-color: black;
 }
 .navbar {
     display:flex;
@@ -15,7 +15,7 @@
     list-style-type: none;
     margin:0;
     padding:0;
-    background: green;
+    background: black;
 }
 .navbar li {
     display: inline-block;
@@ -47,7 +47,13 @@
     margin-right:1.5vw;
     padding:0;
 }
-img {
-    width: 30px;
-    height: 30px;
+.cart-img { /*shopping cart img button*/
+    width:30px;
+    height:30px;
+    background-image:url(shopping-cart.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    border: none;
+    cursor:pointer;
 }
