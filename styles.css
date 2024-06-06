@@ -369,6 +369,35 @@ input {
     background-color: rgb(255, 88, 116);
 }
 
+/*Shopping Cart*/
+.remove-from-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-from-cart:hover {
+    background-color: #218838;
+}
+
+.to-checkout {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.to-checkout:hover {
+    background-color: #218838;
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar {
