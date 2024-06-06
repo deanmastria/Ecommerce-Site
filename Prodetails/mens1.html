@@ -28,9 +28,57 @@
             </div>
     </nav>
     <div class ="Page">
-        <p>random</p>
-        <p>Random</p>
-        <p>Random</p>
+        <div class="product">
+            <img src="../images/product5.jpg" alt="Product 5" class="product-image">
+            <h2 class="product-title">Men's Running Pant</h2>
+            <p class="product-description">Worn for comfort and versatility. Pockets and zippers, featuring ankle zippers for style and functionality.</p>
+            <p class="product-price">$29.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+         <!-- Review Section -->
+         <div class="review-section">
+            <h3>Customer Reviews</h3>
+            
+            <!-- Existing Reviews -->
+            <div class="reviews">
+                <div class="review">
+                    <p><strong>Gojo Satoru</strong> - <span>★★★★☆</span></p>
+                    <p>Awesome pants! Love the pocket zippers.</p>
+                </div>
+                <div class="review">
+                    <p><strong>John Smith</strong> - <span>★★★★★</span></p>
+                    <p>Excellent quality and very durable. Highly recommend!</p>
+                </div>
+            </div>
+            
+            <!-- Review Form -->
+            <div class="review-form">
+                <h4>Leave a Review</h4>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="rating">Rating:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="5">★★★★★</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="1">★☆☆☆☆</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="review">Review:</label>
+                        <textarea id="review" name="review" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Review</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <footer>
         <hr>
