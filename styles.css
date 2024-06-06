@@ -300,6 +300,9 @@ input {
         opacity: 1;
     }
 }
+#quantity {
+    width: 50px;
+}
 @media screen and (max-width: 768px) {
     .page {
         display:flex;
