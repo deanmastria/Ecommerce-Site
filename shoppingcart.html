@@ -62,10 +62,12 @@
                         <h2 class="product-title">Accessory 2</h2>
                         <p class="product-description">This is a description of Product 1.</p>
                         <p class="product-price">$10.00</p>
-                        <p class="quantity">    
-                            <form>
-                            <label for="quantity">Qty:</label>
-                            <textreader type="amount" id="quantity">
+                        <p class="quantity">  
+                            <button class="quantity-btn">-</button> 
+                            <input type="number" id="quantity" min="0" value="1">
+                            <button class="quantity-btn">+</button> 
+
+
                         </p>
                         <button class="add-to-cart">Remove from Cart</button>
                     </div>
