@@ -153,6 +153,7 @@ header {
     padding: 5px;
     width: 85vw;
     background-color: white;
+    
     box-shadow: 0 0 130px rgb(197, 83, 152);
     border-radius: 10px; 
 }
