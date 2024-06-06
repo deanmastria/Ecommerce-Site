@@ -112,12 +112,12 @@ header {
     font-size: 35px;
 }
 .lifestyle {
-    animation: fadeInAnimation 4s ease forwards;
+    animation: 4s fadeIn Animation;
     opacity: 0;
 }
 @keyframes fadeInAnimation {
     from {
-        opacity:0;
+        opacity:0%;
     }
     to {
         opacity: 1;
