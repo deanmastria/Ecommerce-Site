@@ -25,61 +25,73 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: black;
+    position:fixed;
     width: 99%;
     z-index:1000;
     top:700px;
 }
+
 .navbar {
-    display:flex;
-    position:relative;
+    display: flex;
+    position: relative;
     z-index: 999;
 }
+
 .navbar ul {
-    list-style-type: none;
-    margin:0;
-    padding:0;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
     background: black;
 }
+
 .navbar li {
     display: inline-block;
 }
+
 .navbar li a {
-    color:white;
     text-decoration: none;
-    display:block;
+    color: white;
+    display: block;
     padding: 10px 20px;
 }
-.navbar ul ul { /*creates dropdown menu*/
-    position:absolute;
-    top : 100%;
+
+.navbar ul ul { /* Dropdown menu */
+    position: absolute;
+    top: 100%;
     display: none;
 }
+
 .navbar ul ul li {
-    display:block;
+    display: block;
 }
+
 .navbar li:hover ul {
-    display:block;
+    display: block;
 }
+
 .navbar ul ul li a:hover {
     background-color: black;
 }
-.nav_container .shoppingcart { /*formats where the shopping cart button is*/
-    display:flex;
+
+.nav_container .shoppingcart { /* Shopping cart button */
+    display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right:1.5vw;
-    padding:0;
+    margin-right: 1.5vw;
+    padding: 0;
 }
-.cart-img { /*shopping cart img button*/
-    width:30px;
-    height:30px;
-    background-image:url(shopping-cart.jpg);
+
+.cart-img { /* Shopping cart image button */
+    width: 30px;
+    height: 30px;
+    background-image: url(shopping-cart.jpg);
     background-size: cover;
     background-position: center;
     background-color: black;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* Product Listings Section */
