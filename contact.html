@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    textarea{
+        resize:none;
+    }
+</style>
+<body>
+    <a href ="#Page" class="clickable_header">
+        <header class ="background2"></header>
+    </a>
+    <nav>
+        <div class ="nav_container">
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a>Products</a>
+                        <ul>
+                            <li><a href="mens.html">Men's</a></li>
+                            <li><a href="womens.html">Women's</a></li>
+                            <li><a href="accessory.html">Acessories</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="shoppingcart">
+                <a href="shoppingcart.html"><button class ="cart-img"></button></a>
+            </div>
+        </div>
+    </nav>
+            <div class ="Page" id="Page">
+                <section id="contact-page">
+                    <div class="form.container">
+                        <div class="form-container">
+                            <h2>We appreciate your feedback and questions!</h2>
+                            <form action="/submit_review" method="post">
+                                <div class="form-group2">
+                                 <label for="text">Any Questions/Feedback?</label>
+                                 <textarea name="questions" id="text"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                    </div>
+            </div>
+        </div>
+    <footer>
+        <hr>
+            <div class ="footer-container">
+                <div class ="contactsheet" id="contact_sheet">
+                    <p>(123)-456-7890</p>
+                    <p>123 Fake Avenue Ln, Wilmington NC, 28403</p>
+                    <p>©2024 Night Owl Wear Inc.</p>
+                </div>
+                <img src="Night Owl Wear headlogo.png" id="head">
+            </div>
+    </footer>
+</body>
+</html>
