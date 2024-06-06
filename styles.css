@@ -88,3 +88,47 @@ header {
     box-shadow: 0 0 130px rgb(197, 83, 152);
     border-radius: 10px; 
 }
+<<<<<<< HEAD
+=======
+/*Sets up hero section*/
+.HeroSection {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1px;
+    padding: 5px;
+    width: 84.2vw;
+    height: 40vw;
+    background: black;
+    border-radius: 10px;
+    color:white;
+    background-image: linear-gradient(to bottom right, black 40%, rgb(245, 119, 140)80%, rgb(129, 33, 129)95%);
+}
+.HeroSection h1{
+    font-size: 150px;
+    margin-left:5vw;
+    margin-bottom:15vw;
+}
+.Bio{
+    margin-right: 10vw;
+    font-size: 35px;
+}
+.lifestyle {
+    animation: fadeInAnimation 4s ease forwards;
+    opacity: 0;
+}
+@keyframes fadeInAnimation {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+footer hr{
+    color:white;
+}
+footer {
+    color:white;
+}
+>>>>>>> a3f1fcf53135b1ae1a0ab919cdd32b4bf45c0783
