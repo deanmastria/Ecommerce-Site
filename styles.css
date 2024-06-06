@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: space-between;
     background-color: black;
+    position:fixed;
+    width: 99%;
 }
 .navbar {
     display:flex;
@@ -56,4 +58,12 @@
     background-color: black;
     border: none;
     cursor:pointer;
+}
+.Page {
+    margin: 4vw;
+    padding: 5px;
+    width: 85vw;
+    background-color: white;
+    box-shadow: 0 0 50px black;
+    border-radius: 10px; 
 }
