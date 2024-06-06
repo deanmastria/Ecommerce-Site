@@ -9,7 +9,7 @@
 </head>
 <body>
     <a href ="#Page" class="clickable_header">
-        <header class ="background"></header>
+        <header class ="background2"></header>
     </a>
     <nav>
         <div class ="nav_container">
@@ -32,11 +32,55 @@
     </nav>
     <div class ="Page">
         <div class="product">
-            <img src="product1.jpg" alt="Product 1" class="product-image">
+            <img src="../images/product1.jpg" alt="Product 1" class="product-image">
             <h2 class="product-title">All-In-1 Bottle Carrier</h2>
             <p class="product-description">Water bottle holder pouch with strap. Can hold 40 oz tumbler, phone, hooks for keys, etc.</p>
             <p class="product-price">$15.99</p>
             <button class="add-to-cart">Add to Cart</button>
+        </div>
+         <!-- Review Section -->
+         <div class="review-section">
+            <h3>Customer Reviews</h3>
+            
+            <!-- Existing Reviews -->
+            <div class="reviews">
+                <div class="review">
+                    <p><strong>Will Smith</strong> - <span>★★★★☆</span></p>
+                    <p>Great on hikes! My Wife loves it, it's a MUST buy!</p>
+                </div>
+                <div class="review">
+                    <p><strong>John Smith</strong> - <span>★★★★★</span></p>
+                    <p>Excellent quality and hooks for keys are very handy. Highly recommend!</p>
+                </div>
+            </div>
+            
+            <!-- Review Form -->
+            <div class="review-form">
+                <h4>Leave a Review</h4>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="rating">Rating:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="5">★★★★★</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="1">★☆☆☆☆</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="review">Review:</label>
+                        <textarea id="review" name="review" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Review</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <footer>
