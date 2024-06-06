@@ -25,10 +25,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    position:fixed;
     width: 99%;
     z-index:1000;
-    top:700px;
 }
 
 .navbar {
