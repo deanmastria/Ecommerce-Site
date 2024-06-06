@@ -290,19 +290,23 @@ input {
     color:white;
     background-image: linear-gradient(to bottom right, black 40%, rgb(245, 119, 140)80%, rgb(129, 33, 129)95%);
 }
+
 .HeroSection h1{
     font-size: 10vw;
     margin-left:5vw;
     margin-bottom:15vw;
 }
+
 .Bio{
     margin-right: 10vw;
     font-size: 2vw;
 }
+
 .lifestyle {
     animation: fadeInAnimation 4s ease forwards;
     opacity: 0;
 }
+
 @keyframes fadeInAnimation {
     from {
         opacity:0;
@@ -311,28 +315,49 @@ input {
         opacity: 1;
     }
 }
+
 #quantity {
     width: 50px;
 }
+
 @media screen and (max-width: 768px) {
+
+    .navbar {
+        flex-direction: row;
+    }
+
+    .navbar ul{
+        flex-direction: row;
+    }
+
+    .navbar ul ul {
+        display:block;
+        position:static;
+        
+    }
+
     .page {
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     header {
        height:700px;
     }
+
     .footer-container {
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     #head {
         width: 90vw;
     }
+
     .HeroSection {
         padding: 0;
     }
