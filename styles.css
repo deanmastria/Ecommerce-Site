@@ -25,11 +25,10 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    position:fixed;
     width: 99%;
     z-index:1000;
-    top:700px;
 }
+
 
 .navbar {
     display: flex;
@@ -157,8 +156,7 @@ header {
     box-shadow: 0 0 130px rgb(197, 83, 152);
     border-radius: 10px; 
 }
-<<<<<<< HEAD
-=======
+
 /*Sets up hero section*/
 .HeroSection {
     display:flex;
@@ -183,12 +181,12 @@ header {
     font-size: 35px;
 }
 .lifestyle {
-    animation: fadeInAnimation 4s ease forwards;
+    animation: 4s fadeIn Animation;
     opacity: 0;
 }
 @keyframes fadeInAnimation {
     from {
-        opacity:0;
+        opacity:0%;
     }
     to {
         opacity: 1;
@@ -200,8 +198,4 @@ footer hr{
 footer {
     color:white;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> a3f1fcf53135b1ae1a0ab919cdd32b4bf45c0783
->>>>>>> a99fdeaf7d350fe06a4273ac0f20d084ac91b005
