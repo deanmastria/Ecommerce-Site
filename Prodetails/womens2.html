@@ -34,6 +34,50 @@
         <p>random</p>
         <p>Random</p>
         <p>Random</p>
+         <!-- Review Section -->
+         <div class="review-section">
+            <h3>Customer Reviews</h3>
+            
+            <!-- Existing Reviews -->
+            <div class="reviews">
+                <div class="review">
+                    <p><strong>Jane Doe</strong> - <span>★★★★☆</span></p>
+                    <p>Great bag! Very spacious and the USB charging port is a lifesaver.</p>
+                </div>
+                <div class="review">
+                    <p><strong>John Smith</strong> - <span>★★★★★</span></p>
+                    <p>Excellent quality and very durable. Highly recommend!</p>
+                </div>
+            </div>
+            
+            <!-- Review Form -->
+            <div class="review-form">
+                <h4>Leave a Review</h4>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="rating">Rating:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="5">★★★★★</option>
+                            <option value="4">★★★★☆</option>
+                            <option value="3">★★★☆☆</option>
+                            <option value="2">★★☆☆☆</option>
+                            <option value="1">★☆☆☆☆</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="review">Review:</label>
+                        <textarea id="review" name="review" rows="4" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit Review</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <footer>
         <hr>
