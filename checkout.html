@@ -30,7 +30,67 @@
         <p>random</p>
         <p>Random</p>
         <p>Random</p>
+        <div class="checkout-container">
+            <div class="product-details">
+                <h2>Product Details</h2>
+                <div class="product">
+                    <img src="https://via.placeholder.com/150" alt="Product Image">
+                    <div class="product-info">
+                        <h3>Product Name</h3>
+                        <p>Product description goes here. It provides key features and benefits of the product.</p>
+                        <p><b>Price:</b> $99.99</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="user-info">
+                <h2>User Information</h2>
+                <form id="checkout-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+    
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+    
+                    <label for="state">State:</label>
+                    <input type="text" id="state" name="state" required>
+    
+                    <label for="zip">ZIP Code:</label>
+                    <input type="text" id="zip" name="zip" required>
+                </form>
+            </div>
+    
+            <div class="payment-info">
+                <h2>Payment Information</h2>
+                <form>
+                    <label for="card-number">Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" required>
+    
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+    
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </form>
+            </div>
+    
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <p><b>Product:</b> Product Name</p>
+                <p><b>Price:</b> $99.99</p>
+                <p><b>Shipping:</b> Free</p>
+                <p><b>Total:</b> $99.99</p>
+                <button type="submit" form="checkout-form">Place Order</button>
+            </div>
+        </div>
     </div>
+    
     <footer>
         Contact Information <!--add company info here -dm-->
     </footer>
