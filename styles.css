@@ -1,4 +1,4 @@
-
+/*Style for the nav bar*/
 body {
     background-color: black;
 }
@@ -24,9 +24,10 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: transparent;
     width: 99%;
     z-index:1000;
+    top:700px;
 }
 
 
@@ -152,56 +153,98 @@ header {
     padding: 5px;
     width: 85vw;
     background-color: white;
-    
     box-shadow: 0 0 130px rgb(197, 83, 152);
     border-radius: 10px; 
-}
-
-/*Sets up hero section*/
-.HeroSection {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:1px;
-    padding: 5px;
-    width: 84.2vw;
-    height: 40vw;
-    background: black;
-    border-radius: 10px;
-    color:white;
-    background-image: linear-gradient(to bottom right, black 40%, rgb(245, 119, 140)80%, rgb(129, 33, 129)95%);
-}
-.HeroSection h1{
-    font-size: 150px;
-    margin-left:5vw;
-    margin-bottom:15vw;
-}
-.Bio{
-    margin-right: 10vw;
-    font-size: 35px;
-}
-.lifestyle {
-    animation: 4s fadeIn Animation;
-    opacity: 0;
-}
-@keyframes fadeInAnimation {
-    from {
-        opacity:0%;
-    }
-    to {
-        opacity: 1;
-    }
 }
 footer hr{
     color:white;
 }
-.product-image {
-    width: 150px;
-    height: auto;
-    border-style: groove;
-}
-
 footer {
     color:white;
 }
 
+.checkout-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container, .summary-container {
+    flex: 1 1 45%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    border-right: 1px solid #e0e0e0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.summary-container {
+    padding-left: 40px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    margin-top: 10px;
+}
