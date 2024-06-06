@@ -284,3 +284,9 @@ input {
         opacity: 1;
     }
 }
+
+/*Shopping Cart*/
+
+#quantity {
+    width: 50px;
+}
