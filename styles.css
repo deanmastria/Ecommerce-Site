@@ -325,18 +325,16 @@ input {
     font-size: 2vw;
 }
 
-.lifestyle {
-    animation: fadeInAnimation 4s ease forwards;
+.Page .HeroSection .Lifestyle {
+    animation: fadeIn 8s forwards 2s;
     opacity: 0;
 }
-
-@keyframes fadeInAnimation {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
+.Page .herosection:hover .fadeIn{
+    opacity:1;
+}
+@keyframes fadeIn {
+    0% { opacity:0;}
+    100% {opacity:1}
 }
 
 #quantity {
