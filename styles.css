@@ -6,6 +6,12 @@ html {
 body {
     background-color: black;
 }
+/*Style for navbar current page*/
+.currentpage {
+    font-size:1.2em;
+    font-weight: bold;
+    text-decoration:underline
+}
 /*makes the logo clickable and bring user to the page*/
 a.clickable_header {
     display:block;
@@ -58,7 +64,21 @@ a.clickable_header {
     padding: 0;
     background: black;
 }
-
+.navbar ul :hover {
+    background-color: rgb(197, 83, 152);
+}
+.navbar ul ul {
+    background-color: rgb(197, 83, 152);
+}
+.navbar ul ul li.mensbutton :hover {
+    background-color: black !important;
+}
+.navbar ul ul li.womensbutton :hover {
+    background-color: black !important;
+}
+.navbar ul ul li.accessorybutton :hover {
+    background-color: black !important;
+}
 .navbar li {
     display: inline-block;
 }
@@ -85,7 +105,7 @@ a.clickable_header {
 }
 
 .navbar ul ul li a:hover {
-    background-color: black;
+    background-color: rgb(197, 83, 152);
 }
 
 .nav_container .shoppingcart { /* Shopping cart button */
