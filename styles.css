@@ -395,8 +395,21 @@ input {
 }
 
 .to-checkout:hover {
-    background-color: #218838;
+    background-color:  rgb(255, 88, 116);
 }
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid  rgb(255, 88, 116);
+}
+
 
 @media screen and (max-width: 768px) {
 
